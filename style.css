@@ -219,36 +219,37 @@ body {
 
 @media (max-width: 480px) {
     .board {
-        grid-template-columns: repeat(3, 60px);
+        grid-template-columns: repeat(3, 70px);
     }
 
     .cell {
-        width: 60px;
-        height: 60px;
-        font-size: 24px;
+        width: 70px;
+        height: 70px;
+        font-size: 28px;
     }
 
     .welcome, .guide, .message-container {
-        max-width: 95%;
-        padding: 10px;
+        max-width: 100%;
+        padding: 15px;
+        font-size: 20px;
     }
 
     .win-text {
-        font-size: 1.2rem;
+        font-size: 1.5rem;
     }
 
     .victory-button {
-        padding: 12px 25px;
-        font-size: 16px;
+        padding: 15px 30px;
+        font-size: 18px;
     }
 
     .profile-pic {
-        width: 40px;
-        height: 40px;
-        font-size: 14px;
+        width: 50px;
+        height: 50px;
+        font-size: 16px;
     }
 
     .close-button {
-        font-size: 20px;
+        font-size: 24px;
     }
 }

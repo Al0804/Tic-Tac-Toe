@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tic Tac Toe - Zerina vs Bot</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="welcome">
+        <h1>Selamat Datang Zerina! 🌟</h1>
+        <p>Siap untuk bermain Tic Tac Toe melawan Bot?</p>
+    </div>
+
+    <div class="guide">
+        <h3>Panduan Bermain:</h3>
+        <p>1. Kamu bermain sebagai "X"</p>
+        <p>2. Bot bermain sebagai "O"</p>
+        <p>3. Menangkan dengan membuat 3 X berurutan!</p>
+    </div>
+
+    <div class="board" id="board">
+        <div class="cell" onclick="makeMove(0)"></div>
+        <div class="cell" onclick="makeMove(1)"></div>
+        <div class="cell" onclick="makeMove(2)"></div>
+        <div class="cell" onclick="makeMove(3)"></div>
+        <div class="cell" onclick="makeMove(4)"></div>
+        <div class="cell" onclick="makeMove(5)"></div>
+        <div class="cell" onclick="makeMove(6)"></div>
+        <div class="cell" onclick="makeMove(7)"></div>
+        <div class="cell" onclick="makeMove(8)"></div>
+    </div>
+
+    <div class="win-screen" id="winScreen">
+        <h2 class="win-text">🎉 Selamat Zerina! Kamu Menang! 🎉</h2>
+        <button class="victory-button" onclick="showMessage()">
+            💌 Ada Pesan Spesial Untukmu! 💌
+        </button>
+    </div>
+
+    <div class="message-page" id="messagePage">
+        <div class="message-container">
+            <button class="close-button" onclick="closeMessage()">×</button>
+            <div class="message-header">
+                <div class="profile-pic">A</div>
+                <div>
+                    <h3 style="margin: 0;">Aldo</h3>
+                    <small style="color: #888;">Online For You</small>
+                </div>
+            </div>
+            <div class="message-content">
+                <p>Assalamualaikum, selamat malam. Gimana kabarnya hari ini?. Dan gimana progress ngaji nya hari ini?. Jangan lupa dijawab dichat ya. Semoga selalu baik-baik aja. Tadi siang aldo mimpi tentang dirimu. Tapi ya apapun itu mmpinya disini aldo selalu mendoakan Lia seperti biasanya. Terima Kasih buat-buat hari yang menyenangkannya dan jangan patah semangat</p>
+                <div class="message-time">
+                    Dikirim pukul 21:25
+                </div>
+                <div class="signature">
+                    Dari aldo yang mencintai Lia ❤️
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
